@@ -1,7 +1,7 @@
 %global debug_package %{nil}
 
 Name:          gnome-shell-extension-middleclickclose
-Version:       1.1
+Version:       1.1.1
 Release:       1%{?dist}
 Summary:       Gnome shell extension for closing apps in overview with a middle click
 
@@ -30,6 +30,8 @@ cp -r middleclickclose@paolo.tranquilli.gmail.com %{buildroot}%{_datarootdir}/gn
 %{_datarootdir}/gnome-shell/extensions/middleclickclose@paolo.tranquilli.gmail.com/*
 
 %changelog
+* Sun Nov 19 2017 dmytr 1.1.1-1
+- New version
 * Fri Oct 20 2017 dmytr 1.1-1
 - Initial packaging
 
