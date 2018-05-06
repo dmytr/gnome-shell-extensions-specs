@@ -1,7 +1,7 @@
 %global debug_package %{nil}
 
 Name:          gnome-shell-extension-dash-to-dock
-Version:       61	
+Version:       63	
 Release:       1%{?dist}
 Summary:       A dock for the Gnome Shell
 
@@ -36,6 +36,8 @@ switching between windows and desktops.
 %{_datarootdir}/locale/*/LC_MESSAGES/dashtodock.mo
 
 %changelog
+* Sun May 06 2018 dmytr 63-1
+- New version
 * Fri Oct 20 2017 dmytr 1.1-1
 - Initial packaging
 
