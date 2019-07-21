@@ -14,6 +14,7 @@ BuildRequires: gcc
 BuildRequires: glib2-devel
 BuildRequires: gobject-introspection-devel
 BuildRequires: mutter-devel
+BuildRequires: clutter-devel
 BuildRequires: libinput-devel
 BuildRequires: systemd-devel
 
@@ -21,12 +22,13 @@ Requires:      glib2
 Requires:      mutter
 Requires:      libinput
 Requires:      systemd
+Requires:      clutter
 
 %description
 GNOME Shell extension which makes "tap with two fingers" work as a middle click
 
 %prep
-%autosetup -n middle-tap-%{version} 
+%autosetup -n middle-tap-%{version}
 
 %build
 %meson
