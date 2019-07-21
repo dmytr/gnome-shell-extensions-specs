@@ -44,7 +44,7 @@ GNOME Shell extension which makes "tap with two fingers" work as a middle click
 %{_datarootdir}/gnome-shell/extensions/MiddleTap@dmytr.github.io/*
 
 %changelog
-* Sun Jul 21 2018 dmytr 0.4-1
+* Sun Jul 21 2019 dmytr 0.4-1
 - New version with GNOME Shell 3.32.2 (Fedora 30) support
 * Tue Nov 27 2018 dmytr 0.3-1
 - New version with GNOME Shell 3.30.2 (Fedora 29) support
